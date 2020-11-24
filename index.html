@@ -7,6 +7,7 @@
   <script src="ex06-5.js"></script><!-- この行を追加 -->
   <script src="ex06-7.js"></script>
   <script src="ex6-1.js"></script>
+  <script src="ex06-8.js"></script>
 </head>
 <body>
   <!--文字の大きさの練習-->
@@ -239,5 +240,18 @@ ondblclick="alert('Hello, Haruki!');">
 <input type="button" value="レイ"onclick="someone('レイ');sayhello();">
 <input type="button" value="シンジ"onclick="someone('シンジ');sayhello();">
 <input type="button" value="アスカ"onclick="someone('アスカ');sayhello();">
+<h1>JavaScriptによる変更の練習</h1>
+<input type="button" value="あいさつ" onclick="sayhello68();">
+<input type="button" value="太郎" onclick="taro68();">
+<input type="button" value="花子" onclick="hanako68();">
+<h1>JavaScriptによるページの変更69</h1>
+<div id="txt1" >
+<input type="button" value="テキストの変更" onclick="txtchange1();">
+城西大学</div>
+<div id="image1" >
+<input type="button" value="画像の変更" onclick="imgchange1();">
+<imgsrc='./image/josai.png' id="logo" alt="JosaiLogo"></div>
+<p id="who68">world</p>
+setTimeout('alert("3 seconds have passed");', 3000);
 </body>
 </html>
