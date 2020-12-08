@@ -1,1 +1,2 @@
-function imgchange1() {document.getElementById('logo').src= './image/gakkou.jpg';}
+function imgchange1() {
+    document.getElementById('logo').src= './image/gakkou.jpg';}

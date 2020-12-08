@@ -1,5 +1,9 @@
-function sayhello61() {alert('Hello,Function!');}
-function taro61() {alert('Hello,taro!');}
+function sayhello61() {
+    alert('hello,Function!');}
+function saygoodbye61() {
+    alert('goodbye,Function!');}    
+function taro61() {
+    alert('Hello,taro!');}
 function hanako61() {alert('Hello,hanako!');} 
 var who65 = 'world';
 function sayhello65() {
