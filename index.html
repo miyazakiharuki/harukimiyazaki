@@ -269,9 +269,13 @@ href="https://www.josai.ac.jp/club/ekiden_joshiekiden.html">女子駅伝部</a><
 <img src='./image/josai.png' id="logo" alt="JosaiLogo"></div>
 
 <h1>タイマーイベントによる実行 6-11</h1>
-<div id="image1" >
-<input type="button" value="画像の変更" onclick="imgchange1();">
-<img src='./image/josai.png' id="logo" alt="JosaiLogo"></div>
+<form name="timer">
+<input type="button" value="スタート" onclick="hyoji()"><br>
+<input type="text" name="moji" size="30" value="">
+
+<input type="button" value="Timer"
+onclick="setTimeout('mes()',3000)">
+
 
 </body>
 </html>
